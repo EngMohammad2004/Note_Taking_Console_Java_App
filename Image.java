@@ -9,5 +9,21 @@ package com.mycompany.notetakingapp;
  * @author m7md
  */
 public class Image {
+    private String path;
+    private String description;
+
+    public Image(String path, String description) {
+        this.path = path;
+        this.description = description;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+    
     
 }
